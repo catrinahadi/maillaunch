@@ -1,0 +1,6 @@
+Hi {{first_name}},
+
+I wanted to reach out about {{company}}.
+
+Best,
+Your Name

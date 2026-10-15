@@ -1,0 +1,18 @@
+provider: gmail
+daily_limit: 100
+
+gmail:
+  client_id: "your-client-id.apps.googleusercontent.com"
+  client_secret: "set-via MAILLAUNCH_GMAIL_CLIENT_SECRET environment variable"
+  redirect_uri: "http://localhost:53682/oauth/callback"
+
+microsoft:
+  client_id: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  tenant_id: "common"
+
+send:
+  min_delay_seconds: 60
+  max_delay_seconds: 180
+  retry_failed: true
+  retry_attempts: 2
+  backoff_base_seconds: 2
